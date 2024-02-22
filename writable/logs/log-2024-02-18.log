@@ -1,0 +1,116 @@
+INFO - 2024-02-18 02:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:45:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:55:44 --> ErrorException: Undefined variable $pasien
+in APPPATH/Views/form_grafik.php on line 17.
+ 1 APPPATH/Views/form_grafik.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pasien', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 17)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik.php', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(79): view('form_grafik.php')
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:57:58 --> ErrorException: Undefined array key "id_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:58:00 --> ErrorException: Undefined array key "id_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:58:19 --> ErrorException: Undefined array key "ID_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:58:20 --> ErrorException: Undefined array key "ID_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ID_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:58:37 --> ErrorException: Undefined array key "nama_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-18 02:58:39 --> ErrorException: Undefined array key "nama_pasien"
+in APPPATH/Views/form_grafik.php on line 18.
+ 1 APPPATH/Views/form_grafik.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pasien"', '/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php', 18)
+ 2 SYSTEMPATH/View/View.php(228): include('/Applications/XAMPP/xamppfiles/htdocs/project_fix/app/Views/form_grafik.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('form_grafik', [], true)
+ 5 APPPATH/Controllers/BeratBadanController.php(82): view('form_grafik', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\BeratBadanController->form_grafik()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BeratBadanController))
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Applications/XAMPP/xamppfiles/htdocs/project_fix/public/index.php')
+INFO - 2024-02-18 02:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 02:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-18 03:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
